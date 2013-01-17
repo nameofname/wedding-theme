@@ -8,11 +8,9 @@ Version:        0.1.0
 
 @import url("../forever/style.css");
 
-/*
-Just to prove I can fucking do it: 
-h1 {
-    font-size: 50px; 
-}*/
+body {
+    padding: 0px; 
+}
 
 #content {
 	margin: 0 0 0 15px;
@@ -24,6 +22,7 @@ h1 {
 	border: 0px;
 	border-radius: 0px;
 	width: 100%; 
+	margin: 0px; 
 }
 
 #main{
@@ -35,4 +34,18 @@ h1 {
 	float: none; 
 }
 
+#site-info {
+	display: none; 
+}
+
+#masthead {
+	padding: 0px; 
+	margin: 0px; 
+}
+
+#masthead img {
+	width : 100%;
+	margin: 0px; 
+	border: 0px; 
+}
 
