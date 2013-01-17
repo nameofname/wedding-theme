@@ -29,6 +29,10 @@ h1 {
 #main{
 	width: 960px; 
 	margin: auto; 
+}
+
+#main,#primary {
 	float: none; 
 }
+
 
