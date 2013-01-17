@@ -1,0 +1,34 @@
+/*
+Theme Name:     Ronald's Wedding Theme
+Description:    Child theme of Automatic's Forever for my wedding. 
+Author:         Ronald Williams
+Template:       forever
+Version:        0.1.0
+*/
+
+@import url("../forever/style.css");
+
+/*
+Just to prove I can fucking do it: 
+h1 {
+    font-size: 50px; 
+}*/
+
+#content {
+	margin: 0 0 0 15px;
+	max-width: 930px;
+}
+
+#page{
+	background: transparent;
+	border: 0px;
+	border-radius: 0px;
+	width: 100%; 
+}
+
+#main{
+	width: 960px; 
+	margin: auto; 
+	float: none; 
+}
+
