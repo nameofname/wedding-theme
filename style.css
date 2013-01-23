@@ -132,3 +132,17 @@ body, html, #page {
 	text-align: center; 
 	vertical-align: middle; 
 }
+
+#access .nav-dot {
+	font-family: courier;
+	font-size: 75px;
+	margin-left: 22px;
+	position: relative;
+	top: 8px;
+	line-height: 0px;
+}
+
+/*#access .nav-dot:last-child {
+	display: none; 
+}*/
+
