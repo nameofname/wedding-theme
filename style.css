@@ -109,9 +109,11 @@ body, html, #page {
 #access a {
 	border-radius : 2px; 
 	line-height: 30px; 
+    margin: 6px 0px; 
 }
 
-#page #access li.current_page_item:hover > a {
+/*#page #access li.current_page_item:hover > a {*/
+#page #access li:hover > a {
 	/*background-color: #f2f9f8; */
 	background-color: none; 
 	color: #000;
@@ -142,7 +144,7 @@ body, html, #page {
 	line-height: 0px;
 }
 
-/*#access .nav-dot:last-child {
+#access li:last-child .nav-dot {
 	display: none; 
-}*/
+}
 
