@@ -8,30 +8,42 @@ Version:        0.1.0
 
 @import url("../forever/style.css");
 
+/*@font-face {*/
+    /*font-family: rialto;*/
+    /*src: local(rialto), url('fonts/Rialto.ttf') format('truetype');*/
+/*}*/
+
 @font-face {
-    font-family: helldorado;
-    src: local(helldorado), url('fonts/HELLDORA.TTF') format('opentype');
+    font-family: 'park_lane_nfregular';
+    src: url('fonts/park_lane/parklanenf-webfont.eot');
+    src: url('fonts/park_lane/parklanenf-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/park_lane/parklanenf-webfont.woff') format('woff'),
+    url('fonts/park_lane/parklanenf-webfont.ttf') format('truetype'),
+    url('fonts/park_lane/parklanenf-webfont.svg#park_lane_nfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
-	padding: 0px; 
-	color: black; 
-	font-family: helvetica; 
-	font-size: 16px; 
+	padding: 0px;
+	color: black;
+	font-family: helvetica;
+	font-size: 16px;
 }
 
 h1 {
-	font-family: "helldorado"; 
-	font-size: 45px; 
-	color: black; 
+	font-family: "park_lane_nfregular";
+	font-size: 45px;
+	color: black;
 }
 
 a, a:visited {
-	color: #bc420c; 
+	color: #bc420c;
 }
 
 body, html, #page {
-	background-color: #f9f9f9; 
+	background-color: #f9f9f9;
 }
 
 #content {
@@ -43,48 +55,48 @@ body, html, #page {
 	background: transparent;
 	border: 0px;
 	border-radius: 0px;
-	width: 100%; 
-	margin: 0px; 
+	width: 100%;
+	margin: 0px;
 }
 
 #main{
-	width: 960px; 
-	margin: auto; 
-	border-bottom: 0px; 
+	width: 960px;
+	margin: auto;
+	border-bottom: 0px;
 }
 
 #main,#primary {
-	float: none; 
-	clear: both; 
+	float: none;
+	clear: both;
 }
 
 #site-info {
-	display: none; 
+	display: none;
 }
 
 #masthead {
-	padding: 0px; 
-	margin: 0px; 
+	padding: 0px;
+	margin: 0px;
 }
 
 #masthead img {
 	width : 100%;
-	margin: 0px; 
-	padding: 0px; 
-	border: 0px; 
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 #access {
-	border: 0px; 
-	background: url(img/navbar-mixed.png) repeat-x center center transparent; 
-	background: url(img/navbar-x.png) repeat-x center center transparent; 
+	border: 0px;
+	background: url(img/navbar-mixed.png) repeat-x center center transparent;
+	background: url(img/navbar-x.png) repeat-x center center transparent;
 }
 
 /* Navigation styles */
 
 #access ul {
-	display: inline-block; 
-	clear: none; 
+	display: inline-block;
+	clear: none;
 	float: none;
 	list-style: none;
 	font-size: 14px;
@@ -95,15 +107,15 @@ body, html, #page {
 	background-color: #f9f9f9;
 	margin: auto;
 	height: 50px;
-	vertical-align: middle; 
-	padding: 0px 20px; 
+	vertical-align: middle;
+	padding: 0px 20px;
 }
 
 #access li {
-	position: none; 
-	left: 0px; 
-	font-family: "helldorado"; 
-	font-size: 35px; 
+	position: none;
+	left: 0px;
+	font-family: "park_lane_nfregular";
+	font-size: 25px;
 }
 
 #access a {
@@ -137,7 +149,7 @@ body, html, #page {
 
 #access .nav-dot {
 	font-family: courier;
-	font-size: 75px;
+	font-size: 57px;
 	margin-left: 22px;
 	position: relative;
 	top: 8px;
