@@ -75,8 +75,31 @@ body, html, #page {
 	clear: both;
 }
 
+/* FOOTER STYLES... */
 #site-info {
 	display: none;
+}
+
+footer#colophon {
+    position: relative; 
+    height: 350px; 
+    background: url(img/footer-bg2.jpg) #f9f9f9;
+    border-radius: 0px 0px;
+    margin: 0px 0px;
+    -webkit-box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+footer#colophon img {
+    margin: auto; 
+    display: block;
+}
+
+footer#colophon 
+    color: #6abe88; 
+    position: absolute; 
+    bottom: 15px; 
+    right: 15px; 
 }
 
 #masthead {
@@ -91,9 +114,35 @@ body, html, #page {
 	border: 0px;
 }
 
+#masthead img.custom-header-image {
+    -webkit-box-shadow:  0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+/*
+#masthead img.fleur-left {
+    float: left; 
+}
+
+#masthead img.fleur-right{
+    float: right; 
+}*/
+
+#masthead img.fleur-left, 
+#masthead img.fleur-right {
+	width : 30px;
+	height : 30px;
+    background-color: transparent; 
+    display: inline; 
+    position: relative; 
+    top: 11px; 
+    padding: 0px 7px; 
+}
+
 #access {
 	border: 0px;
-	background: url(img/navbar-triangles-dark.png) repeat-x center center transparent;
+    margin: 20px 0px; 
+	background: url(img/grey-line.png) repeat-x center center transparent;
 }
 
 /* Navigation styles */
@@ -124,9 +173,11 @@ body, html, #page {
 
 #access a {
 	border-radius : 2px; 
-	line-height: 30px; 
-    margin: 6px 0px;
-    padding: 5px 7px;
+	line-height: 38px; 
+    i/*margin: 6px 0px;
+    padding: 5px 7px;*/
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 
 /*#page #access li.current_page_item:hover > a {*/
@@ -151,9 +202,20 @@ body, html, #page {
 	color: black; 
 }
 
+.menu-container {
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+.menu-container-bg {
+    display: inline-block; 
+    background-color: #f9f9f9; 
+}
+
 .menu {
 	text-align: center; 
 	vertical-align: middle; 
+    display: inline-block; 
 }
 
 #access .nav-dot {

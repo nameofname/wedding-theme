@@ -30,9 +30,15 @@
 	<?php endif; ?>
 
 	<nav id="access" role="navigation">
-		<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'forever' ); ?></h1>
-		<div class="skip-link assistive-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'forever' ); ?>"><?php _e( 'Skip to content', 'forever' ); ?></a></div>
+		<!--<h1 class="assistive-text section-heading"><?php _e( 'Main menu', 'forever' ); ?></h1>
+		<div class="skip-link assistive-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'forever' ); ?>"><?php _e( 'Skip to content', 'forever' ); ?></a></div>-->
 
-		<?php wp_nav_menu( apply_filters( 'forever-primary-menu-args', array( 'theme_location' => 'primary' , 'link_after' => '<span class="nav-dot">&#183;</span>') ) ); ?>
+        <div class='menu-container'>
+            <div class='menu-container-bg'>
+                <img class='fleur-left' src='/wp-content/themes/wedding-child/img/fleur-left.png' alt='' />
+                <?php wp_nav_menu( apply_filters( 'forever-primary-menu-args', array( 'theme_location' => 'primary' , 'link_after' => '<span class="nav-dot">&#183;</span>') ) ); ?>
+                <img class='fleur-right' src='/wp-content/themes/wedding-child/img/fleur-right.png' alt='' />
+            </div> 
+        </div> 
 	</nav><!-- #access -->
 </header><!-- #masthead -->
