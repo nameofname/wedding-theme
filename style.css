@@ -95,7 +95,7 @@ footer#colophon img {
     display: block;
 }
 
-footer#colophon 
+footer#colophon a {
     color: #6abe88; 
     position: absolute; 
     bottom: 15px; 
