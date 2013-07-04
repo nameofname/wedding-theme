@@ -11,8 +11,8 @@
 ?>
 
 <footer id="colophon" role="contentinfo">
+    <div id='foot-line'></div>
 	<div id='foot'>
-        <!-- <img src='/wp-content/themes/wedding-child/img/rd-logo.png' alt='' /> -->
         <a id='dance-link' href='#'>d+r?</a>
 	</div>
 </footer><!-- #colophon -->

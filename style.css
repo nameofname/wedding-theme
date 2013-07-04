@@ -82,17 +82,16 @@ body, html, #page {
 
 footer#colophon {
     position: relative; 
-    height: 350px; 
-    background: url(img/footer-bg2.jpg) #f9f9f9;
+    height: 270px;
+    background: url(img/footer-bg.png) #f9f9f9 50% 50%;
     border-radius: 0px 0px;
     margin: 0px 0px;
-    -webkit-box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: inset 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-footer#colophon img {
-    margin: auto; 
-    display: block;
+#foot-line {
+    width: 930px;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
 }
 
 footer#colophon a {
