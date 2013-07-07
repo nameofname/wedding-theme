@@ -230,3 +230,14 @@ footer#colophon a {
 	display: none; 
 }
 
+div.registry-logos {
+    text-align: center; 
+}
+
+a img.registry-logo {
+    border: 0px; 
+    background-color: transparent; 
+    margin: 0px 10px; 
+}
+
+
